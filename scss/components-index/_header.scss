@@ -1,0 +1,49 @@
+/*Header*/
+.cabecera {
+    border: solid 3px rgba(34, 34, 34, 0.952);
+    background-color: rgb(27, 27, 27);
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+     &__ul__li {
+        list-style: none;
+        font-weight: 550;
+        margin-left: 6vw;
+
+        &__a--myanime {
+                background: linear-gradient(120deg,#EDDE5D,#7ad147,#2ecc71, #3498db, #c64bd6,#f58c2a, #EDDE5D);
+                background-size: 400%;
+                font-weight: 800;
+                letter-spacing: 4px;
+                margin-left: 50px;
+                word-spacing: 4px;
+                -webkit-text-fill-color: transparent ;
+                -webkit-background-clip: text;  background-clip: text;
+                animation: animate 15s linear infinite;
+                
+            }
+
+        }
+
+    /*Transiciones-Animaciones-Transformaciones*/
+        .navbar-brand:hover { 
+            transform: scale(1.1);
+        }
+        .nav-link:hover {
+            transform: scale(1.08);
+        }
+
+        @keyframes animate {
+
+            0% {background-position: 0% 100%;}
+
+
+            100% {background-position: 400% 0% }
+        }
+
+}
+
+
+
