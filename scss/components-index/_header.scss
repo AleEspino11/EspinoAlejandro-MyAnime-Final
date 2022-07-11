@@ -1,7 +1,7 @@
 /*Header*/
 .cabecera {
     border: solid 3px rgba(34, 34, 34, 0.952);
-    background-color: rgb(27, 27, 27);
+    background-color: map-get($standard, bg-standard);
     max-width: 100%;
     position: sticky;
     top: 0;

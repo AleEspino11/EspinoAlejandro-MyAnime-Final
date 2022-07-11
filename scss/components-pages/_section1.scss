@@ -2,17 +2,17 @@
 .destacados {
     max-width: 100%;
     height: 65vh;
-    display: flex;
+    display: map-get($standard, flexbox-standar);
+    justify-content: map-get($standard,center-standar);
     flex-direction: column;
-    justify-content: center;
     background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
     max-width: 100%;
     padding: 0 50px; }
 
     .destacados__novedades {
-        display: flex;
+        display: map-get($standard, flexbox-standar);
         justify-content:space-between;
-        align-items: center; 
+        align-items: map-get($standard, center-standar);
         margin-top: 50px;
 
         & img {
@@ -43,9 +43,7 @@
 
     h2 {
         font-weight: 400;
-        display: flex;
+        display: map-get($standard, flexbox-standar);
         font-size: 5%;
         margin: 0%;
 }   
-
-

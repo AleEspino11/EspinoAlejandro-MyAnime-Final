@@ -4,16 +4,16 @@
     background-image: url(../multimedia/FondosSections/FONDO-AZUL.jpg);
     max-width: 100%;
     height: 65vh /*36.5rem*/;
-    display: flex;
+    display: map-get($standard,flexbox-standar);
     flex-direction: column;
-    justify-content: center;
+    justify-content: map-get($standard,center-standar);
     padding: 0 50px;  
  }
 
  .estrenos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   display: map-get($standard, flexbox-standar);
+   justify-content: map-get($standard,center-standar);
+   align-items: map-get($standard, center-standar);
     margin-top: 20px;
     
 }

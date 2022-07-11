@@ -3,7 +3,7 @@
     height: 65vh ;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: map-get($standard,center-standar);
     background-image: url(../multimedia/FondosSections/FONDO-NARANJA.jpg);
     padding: 0 50px;  
 }

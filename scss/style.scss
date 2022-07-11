@@ -6,10 +6,11 @@
 
 @import "./base/fonts";
 @import "./base/variables";
+@import "./base/maps";
 
 .body {
    font-family: $main-font;
-   background-color: rgb(27, 27, 27) ;
+   background-color: map-get($standard, bg-standard) ;
 }
 
 /*Header y Footer*/

@@ -1,8 +1,8 @@
 
 .section2-li {
-    display: flex;
+    display: map-get($standard, flexbox-standar);
+    align-items: map-get($standard, center-standar);
     flex-direction: column;
-    align-items: center;
     }
     
     .section2-main {
@@ -18,74 +18,76 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 
+        
 
         .ST { grid-area: 1 / 1 / 2 / 5;
             width: auto;
-            display: flex; }
+            display: map-get($standard, flexbox-standar);
+            }
         .S1 { grid-area: 2 / 1 / 3 / 2; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S2 { grid-area: 2 / 2 / 3 / 3; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S3 { grid-area: 2 / 3 / 3 / 4; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S4 { grid-area: 2 / 4 / 3 / 5;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S5 { grid-area: 3 / 1 / 4 / 2; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S6 { grid-area: 3 / 2 / 4 / 3; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S7 { grid-area: 3 / 3 / 4 / 4; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S8{ grid-area: 3 / 4 / 4 / 5;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar); }
         .S9 { grid-area: 4 / 1 / 5 / 2;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar); }
         .S10 { grid-area: 4 / 2 / 5 / 3; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S11 { grid-area: 4 / 3 / 5 / 4;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar); }
         .S12 { grid-area: 4 / 4 / 5 / 5;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S13 { grid-area: 5 / 1 / 6 / 2; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S14 { grid-area: 5 / 2 / 6 / 3;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S15 { grid-area: 5 / 3 / 6 / 4; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S16 { grid-area: 5 / 4 / 6 / 5;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S17 { grid-area: 6 / 1 / 7 / 2;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S18 { grid-area: 6 / 2 / 7 / 3; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S19 { grid-area: 6 / 3 / 7 / 4;
-            display: flex;
-            justify-content: center; }
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
         .S20 { grid-area: 6 / 4 / 7 / 5; 
-            display: flex;
-            justify-content: center;}
+            display: map-get($standard, flexbox-standar);
+            justify-content: map-get($standard,center-standar);}
 
 
         &__titulo {
-        display: flex;
+        display: map-get($standard, flexbox-standar);
         border: $border-titulos;
         padding: 8px;
         width: 45%;
