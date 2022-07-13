@@ -4,7 +4,7 @@
     align-items: map-get($standard, center-standar);
     background-image: url(../multimedia/FondosSections/VERDE-ABSTRAC.jpg);
     width: 100%;
-    @include alto (65vw);
+    @include alto (65vh);
 
     .carousel {
     @include ancho (45%);
