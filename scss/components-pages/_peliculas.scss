@@ -3,7 +3,7 @@
 .proximos-estrenos {
     background-image: url(../multimedia/FondosSections/FONDO-AZUL.jpg);
     max-width: 100%;
-    height: 65vh /*36.5rem*/;
+    @include alto (65vh);
     display: map-get($standard,flexbox-standar);
     flex-direction: column;
     justify-content: map-get($standard,center-standar);
@@ -17,8 +17,8 @@
 }
 
 .estrenos img {
-   width: 35vw;
-   height: auto;
+   @include ancho (35vw);
+   @include alto (auto);
 }
  
 /* Fin Peliculas*/

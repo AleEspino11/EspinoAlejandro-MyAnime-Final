@@ -1,12 +1,12 @@
 
 .destacados {
     max-width: 100%;
-    height: 65vh;
+    @include alto (65vh);
     display: map-get($standard, flexbox-standar);
     justify-content: map-get($standard,center-standar);
     flex-direction: column;
     background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
-    max-width: 100%;
+
     padding: 0 50px; }
 
     .destacados__novedades {
@@ -16,8 +16,8 @@
         margin-top: 50px;
 
         & img {
-        height: auto;
-        max-width: 12vw;
+        @include ancho (12vw);
+        @include alto (auto);
         padding: 0px;
         border-radius: 15px;
 

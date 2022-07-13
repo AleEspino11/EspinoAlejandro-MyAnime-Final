@@ -1,17 +1,17 @@
 .section2 {
-    width: 100%;
+    @include ancho (100%);
     @extend %flex-center;
     margin: 50px 0 50px 0;
 
     &__img {
         border-radius: 15px;
-        width: 14vw;
-        height: auto;  
+        @include ancho (14vw);
+        @include alto (auto); 
         /*Transform*/
         &:hover {transform: scale(1.02);}
     }
     &__recomendados {
-        width: 80vw;
+        @include ancho (80vw);
         padding: 20px 5px 20px 5px;
         background-color: $background-sections;
         border: $border-sections;

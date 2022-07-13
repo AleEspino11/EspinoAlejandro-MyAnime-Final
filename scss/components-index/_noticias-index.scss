@@ -7,7 +7,7 @@
 }
 
 .noticias {
-    width: 60%;
+    @include ancho (60%);
     border: $border-sections;
     padding: 20px;
     background-color: $background-sections;
@@ -36,7 +36,7 @@
         align-items: map-get($standard, center-standar);}
 
     &__titulo__t {
-        width: 100%;
+        @include ancho (100%);
         padding: 10px 5px 10px 5px;
         color: $color-fuente;
         margin-bottom: 15px;
@@ -50,8 +50,8 @@
     }    
  
     &__img {
-        width: 10vw;
-        height: auto;
+        @include ancho (10vw);
+        @include alto (auto);
         padding: 3px;
         border: solid 2px rgba(255, 115, 0, 0.952);
 

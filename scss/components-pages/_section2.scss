@@ -70,7 +70,7 @@
         display: map-get($standard, flexbox-standar);
         border: $border-titulos;
         padding: 8px;
-        width: 45%;
+        @include ancho (45%);
         color: $color-fuente;
         font-weight: 400;
         margin: 20px 0px 0 39px;
@@ -81,8 +81,8 @@
         }
 
         &__img {
-        width: 80%;
-        height: auto;
+        @include ancho (80%);
+        @include alto (auto);
         margin: 20px 0 20px 0px;
         border-radius: 15px;
 

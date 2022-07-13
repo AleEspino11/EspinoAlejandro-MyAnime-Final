@@ -4,8 +4,8 @@
 }
 
 .footer {
-width: 80%;
-height: auto;
+@include ancho (80%);
+@include alto (auto);
 border: $border-sections;
 /*background-color: rgb(1, 28, 36);*/
 background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
