@@ -11,10 +11,8 @@
  }
 
  .estrenos{
-   display: map-get($standard, flexbox-standar);
-   justify-content: map-get($standard,center-standar);
-   align-items: map-get($standard, center-standar);
-    margin-top: 20px;
+   @extend %flex-center;
+   margin-top: 20px;
     
 }
 

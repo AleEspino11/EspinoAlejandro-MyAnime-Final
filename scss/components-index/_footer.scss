@@ -1,7 +1,6 @@
 .section-footer {
-    display: map-get($standard, flexbox-standar);
-    justify-content: center;
-    align-items: center;
+    @extend %flex-center;
+    align-items: map-get($standard, center-standar);
 }
 
 .footer {

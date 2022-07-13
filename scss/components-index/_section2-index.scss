@@ -1,8 +1,6 @@
 .section2 {
     width: 100%;
-    display: map-get($standard, flexbox-standar);
-    justify-content: map-get($standard,center-standar);
-    align-items: map-get($standard, center-standar);
+    @extend %flex-center;
     margin: 50px 0 50px 0;
 
     &__img {
@@ -22,28 +20,21 @@
         grid-template-rows: repeat(2, auto);
 
         &__div1 { grid-area: 1 / 1 / 2 / 5;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);
-            align-items: map-get($standard, center-standar);
             background: linear-gradient( rgb(1, 28, 36) );
                                 }
         &__div2 { grid-area: 2 / 1 / 3 / 2;
-                display: map-get($standard, flexbox-standar);
-                justify-content: map-get($standard,center-standar)}
+            @extend %flex-center;}
         &__div3 { grid-area: 2 / 2 / 3 / 3;
-                display: map-get($standard, flexbox-standar);
-                justify-content: map-get($standard,center-standar)}
+            @extend %flex-center;}
         &__div4 { grid-area: 2 / 3 / 3 / 4; 
-                display: map-get($standard, flexbox-standar);
-                justify-content: map-get($standard,center-standar)}
+            @extend %flex-center;}
         &__div5 { grid-area: 2 / 4 / 3 / 5;
-                display: map-get($standard, flexbox-standar);
-                justify-content: map-get($standard,center-standar)}
+            @extend %flex-center;}
 
         &__titulo {
             max-width: 46%;
-            padding: 10px 31rem 10px 5px;
-            margin: 0px 0px  15px 56px;
+            padding: 10px 5px 10px 5px;
+            margin: 0px 0px  15px 43px;
             border: outset 2px rgba(255, 115, 0, 0.952);
             color: $color-fuente;
             font-weight: 400;

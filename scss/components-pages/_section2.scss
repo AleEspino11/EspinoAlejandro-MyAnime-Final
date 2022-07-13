@@ -25,65 +25,45 @@
             display: map-get($standard, flexbox-standar);
             }
         .S1 { grid-area: 2 / 1 / 3 / 2; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S2 { grid-area: 2 / 2 / 3 / 3; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S3 { grid-area: 2 / 3 / 3 / 4; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S4 { grid-area: 2 / 4 / 3 / 5;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S5 { grid-area: 3 / 1 / 4 / 2; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S6 { grid-area: 3 / 2 / 4 / 3; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S7 { grid-area: 3 / 3 / 4 / 4; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S8{ grid-area: 3 / 4 / 4 / 5;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar); }
+            @extend %flex-center;}
         .S9 { grid-area: 4 / 1 / 5 / 2;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar); }
+            @extend %flex-center;}
         .S10 { grid-area: 4 / 2 / 5 / 3; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S11 { grid-area: 4 / 3 / 5 / 4;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar); }
+            @extend %flex-center;}
         .S12 { grid-area: 4 / 4 / 5 / 5;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S13 { grid-area: 5 / 1 / 6 / 2; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S14 { grid-area: 5 / 2 / 6 / 3;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S15 { grid-area: 5 / 3 / 6 / 4; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S16 { grid-area: 5 / 4 / 6 / 5;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S17 { grid-area: 6 / 1 / 7 / 2;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S18 { grid-area: 6 / 2 / 7 / 3; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S19 { grid-area: 6 / 3 / 7 / 4;
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
         .S20 { grid-area: 6 / 4 / 7 / 5; 
-            display: map-get($standard, flexbox-standar);
-            justify-content: map-get($standard,center-standar);}
+            @extend %flex-center;}
 
 
         &__titulo {
@@ -107,7 +87,7 @@
         border-radius: 15px;
 
         &:hover {transform: scale(1.02);}
-        }
+        
 
         }
-        
+    }

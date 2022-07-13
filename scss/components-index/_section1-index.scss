@@ -1,7 +1,6 @@
 
 .section1 {
-    display: map-get($standard, flexbox-standar);
-    justify-content: map-get($standard,center-standar);
+    @extend %flex-center;
     align-items: map-get($standard, center-standar);
     background-image: url(../multimedia/FondosSections/VERDE-ABSTRAC.jpg);
     width: 100%;

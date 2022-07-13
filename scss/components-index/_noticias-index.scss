@@ -1,6 +1,5 @@
 .fondonoticias {
-    display: map-get($standard, flexbox-standar);
-    justify-content: map-get($standard,center-standar);
+    @extend %flex-center;
     align-items: map-get($standard, center-standar);
     background-image: url(../multimedia/FondosSections/FONDO-NARANJA.jpg);
     width: 100%;
@@ -22,19 +21,19 @@
     &__div1 { grid-area: 2 / 1 / 3 / 2;
         display: flex;
         flex-direction: column;
-        align-items: center;}
+        aalign-items: map-get($standard, center-standar);}
     &__div2 { grid-area: 2 / 2 / 3 / 3;
         display: flex;
         flex-direction: column;
-        align-items: center;}
+        align-items: map-get($standard, center-standar);}
     &__div3 { grid-area: 2 / 3 / 3 / 4; 
         display: flex;
         flex-direction: column;
-        align-items: center;}
+        align-items: map-get($standard, center-standar);}
     &__div4 { grid-area: 2 / 4 / 5 / 5; 
         display: flex;
         flex-direction: column;
-        align-items: center;}
+        align-items: map-get($standard, center-standar);}
 
     &__titulo__t {
         width: 100%;
