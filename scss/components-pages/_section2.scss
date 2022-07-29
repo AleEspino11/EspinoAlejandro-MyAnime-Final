@@ -14,17 +14,16 @@
         background-color: $background-sections;
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(6, auto);
+        grid-template-rows: repeat(2, auto);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 
-        
 
         .ST { grid-area: 1 / 1 / 2 / 5;
             width: auto;
             display: map-get($standard, flexbox-standar);
             }
-        .S1 { grid-area: 2 / 1 / 3 / 2; 
+        .S1{ grid-area: 2 / 1 / 3 / 2; 
             @extend %flex-center;}
         .S2 { grid-area: 2 / 2 / 3 / 3; 
             @extend %flex-center;}
@@ -70,10 +69,10 @@
         display: map-get($standard, flexbox-standar);
         border: $border-titulos;
         padding: 8px;
-        @include ancho (45%);
+        @include ancho (47.2%);
         color: $color-fuente;
         font-weight: 400;
-        margin: 20px 0px 0 39px;
+        margin: 20px 0 20px 1.4vw;
 
           /*Transform*/
 
@@ -81,13 +80,25 @@
         }
 
         &__img {
-        @include ancho (80%);
+        @include ancho (100%);
         @include alto (auto);
-        margin: 20px 0 20px 0px;
         border-radius: 15px;
-
-        &:hover {transform: scale(1.02);}
         
-
         }
     }
+  .cards-sect2 {
+    width: 12vw;
+    border: none;
+    margin-bottom: 20px;
+    &:hover {transform: scale(1.02);}
+    
+
+    }
+
+
+.texto__cards {
+        color: aliceblue;
+        margin: 0px;
+        padding: 5px;
+        margin-left: 20px;
+       }

@@ -1,13 +1,20 @@
-
-.destacados {
+.section-destacados {
     max-width: 100%;
     @include alto (65vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: map-get($standard,center-standar);
+    background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
+    padding: 0 50px;  
+}
+
+
+.destacados {
     display: map-get($standard, flexbox-standar);
     justify-content: map-get($standard,center-standar);
     flex-direction: column;
-    background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
-
-    padding: 0 50px; }
+    
+}
 
     .destacados__novedades {
         display: map-get($standard, flexbox-standar);
@@ -16,14 +23,13 @@
         margin-top: 50px;
 
         & img {
-        @include ancho (12vw);
+        @include ancho (14vw);
         @include alto (auto);
         padding: 0px;
         border-radius: 15px;
 
           /*transform*/
-        &:hover {
-        transform: scale(1.05);}
+        
             }
 
         &__h2 {
@@ -34,16 +40,32 @@
         color: $color-fuente;   
         
         /*transform*/
-        &:hover {
-        transform: scale(1.02);
-}
-    }
+        &:hover { transform: scale(1.02);}
+                }
 
-    }
+.cards-sect1 {
+        width: 100%;
+        padding: 0 10px 0 10px;
+        
+    /*transform*/
+       &:hover {transform: scale(1.02);}
+            }
+
+ .texto__cards {
+    color: aliceblue;
+    margin: 5px 0 15px 5px;
+    font-weight: 500;  
+                }   
+
+}
+
+    
+      
+
 
     h2 {
         font-weight: 400;
         display: map-get($standard, flexbox-standar);
         font-size: 5%;
-        margin: 0%;
+      
 }   

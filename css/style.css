@@ -65,7 +65,6 @@
   width: 80%;
   height: auto;
   border: solid 2px rgba(255, 115, 0, 0.952);
-  /*background-color: rgb(1, 28, 36);*/
   background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
   margin: 3vw 0 3vw 0;
   padding: 20px;
@@ -509,14 +508,20 @@
   }
 }
 /*Pages*/
-.destacados {
+.section-destacados {
   max-width: 100%;
   height: 65vh;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
   padding: 0 50px;
+}
+
+.destacados {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .destacados__novedades {
@@ -526,14 +531,11 @@
   margin-top: 50px;
 }
 .destacados__novedades img {
-  width: 12vw;
+  width: 14vw;
   height: auto;
   padding: 0px;
   border-radius: 15px;
   /*transform*/
-}
-.destacados__novedades img:hover {
-  transform: scale(1.05);
 }
 .destacados__novedades__h2 {
   border: outset 2px rgba(255, 115, 0, 0.952);
@@ -546,12 +548,24 @@
 .destacados__novedades__h2:hover {
   transform: scale(1.02);
 }
+.destacados__novedades .cards-sect1 {
+  width: 100%;
+  padding: 0 10px 0 10px;
+  /*transform*/
+}
+.destacados__novedades .cards-sect1:hover {
+  transform: scale(1.02);
+}
+.destacados__novedades .texto__cards {
+  color: aliceblue;
+  margin: 5px 0 15px 5px;
+  font-weight: 500;
+}
 
 h2 {
   font-weight: 400;
   display: flex;
   font-size: 5%;
-  margin: 0%;
 }
 
 .section2-li {
@@ -569,7 +583,7 @@ h2 {
   background-color: rgb(1, 28, 36);
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(2, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -642,23 +656,35 @@ h2 {
   display: flex;
   border: outset 2px rgba(255, 115, 0, 0.952);
   padding: 8px;
-  width: 45%;
+  width: 47.2%;
   color: aliceblue;
   font-weight: 400;
-  margin: 20px 0px 0 39px;
+  margin: 20px 0 20px 1.4vw;
   /*Transform*/
 }
 .section2-main__titulo:hover {
   transform: scale(1.02);
 }
 .section2-main__img {
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 20px 0 20px 0px;
   border-radius: 15px;
 }
-.section2-main__img:hover {
+
+.cards-sect2 {
+  width: 12vw;
+  border: none;
+  margin-bottom: 20px;
+}
+.cards-sect2:hover {
   transform: scale(1.02);
+}
+
+.texto__cards {
+  color: aliceblue;
+  margin: 0px;
+  padding: 5px;
+  margin-left: 20px;
 }
 
 .mas-vistos {
@@ -692,10 +718,6 @@ h2 {
 }
 
 /* Fin Peliculas*/
-/*.contacto { 
-    text-decoration: none;
-    padding: 5px;
-}*/
 /*contactos*/
 .fondo-contacto {
   background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
@@ -744,9 +766,11 @@ h2 {
 /*Media Quearis index*/
 /*Quearis Laptop*/
 @media (min-width: 769px) and (max-width: 1024px) {
-  .destacados {
+  .section-destacados {
     max-width: 100%;
     height: auto;
+  }
+  .destacados {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -766,6 +790,18 @@ h2 {
     padding: 5px;
     width: 47%;
     font-size: 2vw;
+  }
+  .destacados__novedades .cards-sect1 {
+    width: auto;
+    /*transform*/
+  }
+  .destacados__novedades .cards-sect1:hover {
+    transform: scale(1.02);
+  }
+  .destacados__novedades .texto__cards {
+    color: aliceblue;
+    margin: 5px 0 15px 5px;
+    font-weight: 500;
   }
   .destacados-img1 {
     grid-area: 1/1/2/2;
@@ -800,7 +836,7 @@ h2 {
   }
   .destacados__novedades img {
     height: auto;
-    max-width: 20vw;
+    width: 100%;
   }
   .section2-main {
     width: 90%;

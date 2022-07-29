@@ -2,15 +2,19 @@
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-.destacados {
+.section-destacados {
+
     max-width: 100%;
     height: auto;
+   
+
+}
+
+.destacados {
     display: flex;
     justify-content: space-between;
     padding: 0;
 
-
-    
     }
            
 .destacados__novedades {
@@ -30,6 +34,20 @@
     width: 47%;
     font-size: 2vw;
     }
+
+    .cards-sect1 {
+        width: auto;
+        
+    /*transform*/
+       &:hover {transform: scale(1.02);}
+            }
+
+ .texto__cards {
+    color: aliceblue;
+    margin: 5px 0 15px 5px;
+    font-weight: 500;  
+                }   
+
 }
                
 .destacados-img1 { grid-area: 1 / 1 / 2 / 2;
@@ -51,9 +69,10 @@
 .destacados-img6 { grid-area: 2 / 3 / 3 / 4; 
     display: flex;
     justify-content: center;}
+
 .destacados__novedades img {
     height: auto;
-    max-width: 20vw;
+    width: 100%;
     }
        
 
