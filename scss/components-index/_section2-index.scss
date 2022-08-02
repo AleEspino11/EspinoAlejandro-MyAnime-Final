@@ -6,35 +6,75 @@
     &__img {
         border-radius: 15px;
         @include ancho (14vw);
-        @include alto (auto); 
-        /*Transform*/
-        &:hover {transform: scale(1.02);}
+        @include alto (21vw); 
     }
+
     &__recomendados {
         @include ancho (80vw);
         padding: 20px 5px 20px 5px;
         background-color: $background-sections;
         border: $border-sections;
         display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(2, auto);
 
-        &__div1 { grid-area: 1 / 1 / 2 / 5;
-            background: linear-gradient( rgb(1, 28, 36) );
-                                }
-        &__div2 { grid-area: 2 / 1 / 3 / 2;
-            @extend %flex-center;}
-        &__div3 { grid-area: 2 / 2 / 3 / 3;
-            @extend %flex-center;}
-        &__div4 { grid-area: 2 / 3 / 3 / 4; 
-            @extend %flex-center;}
-        &__div5 { grid-area: 2 / 4 / 3 / 5;
-            @extend %flex-center;}
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, auto);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            
+            
+            &__div1 { grid-area: 1 / 1 / 2 / 3; }
 
+            &__div2 { grid-area: 2 / 1 / 3 / 2;
+                display: flex; 
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__div3 { grid-area: 2 / 2 / 3 / 3;
+                display: flex; 
+                flex-direction: column;
+                align-items: center; }
+
+            &__div4 { grid-area: 2 / 3 / 3 / 4;
+                display: flex; 
+                flex-direction: column;
+                align-items: center; }
+            
+            &__div5{ grid-area: 2 / 4 / 3 / 5;
+                display: flex; 
+                flex-direction: column;
+                align-items: center;}
+
+    
+        // grid-template-columns: repeat(4, auto);
+        // grid-template-rows: repeat(2, auto);
+
+        // &__div1 { grid-area: 1 / 1 / 2 / 5;
+        //     background: linear-gradient( rgb(1, 28, 36) );
+        //                         }
+        // &__div2 { grid-area: 2 / 1 / 3 / 2;
+        //     display: flex;
+        //     flex-direction: column;
+        // }  
+        // &__div3 { grid-area: 2 / 2 / 3 / 3;
+        //     display: flex;
+        //     flex-direction: column;
+        //    }
+
+        // &__div4 { grid-area: 2 / 3 / 3 / 4; 
+        //     display: flex;
+        //     flex-direction: column;}
+
+        // &__div5 { grid-area: 2 / 4 / 3 / 5;
+        //     display: flex;
+        //     flex-direction: column;
+        // }
+
+    
         &__titulo {
-            max-width: 46%;
+            width: 100%;
             padding: 10px 5px 10px 5px;
-            margin: 0 0 30px 43px;
+            margin: 0 0 30px 2.8vw;
             border: outset 2px rgba(255, 115, 0, 0.952);
             color: $color-fuente;
             font-weight: 400;
@@ -43,10 +83,26 @@
             /*Transform*/
             &:hover {
                 transform: scale(1.02);
-                animation: borde 15s;  
+                  
             }
+
         }
 
         }
         
+        
+        .cards {
+         margin: 0 0 0 0px;
+          /*Transform*/
+        &:hover {transform: scale(1.02);}
+        }
+
+        .texto-card {
+            width:14vw;
+            color: aliceblue;
+            margin: 0 0 0 5px;
+            font-size: 15px;
+            padding-top: 10px;
+        }
+
 }

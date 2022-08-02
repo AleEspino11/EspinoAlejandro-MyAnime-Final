@@ -38,7 +38,7 @@
             .destacados-img6 { grid-area: 1 / 6 / 2 / 7; }
 
         & img {
-        @include ancho (100%);
+        @include ancho (14vw);
         @include alto (auto);
         padding: 0px;
         border-radius: 15px;
@@ -62,7 +62,7 @@
                 }
 
 .cards-sect1 {
-        max-width: 15vw;
+        width: 15vw;
         padding: 10px 10px 10px 10px;
         display: flex;
         flex-direction: column;
@@ -76,7 +76,7 @@
     color: aliceblue;
     margin: 0 0 0 0;
     padding: 10px;
-    font-weight: 500;  
+    font-weight: 500; 
                 }   
 
 }
