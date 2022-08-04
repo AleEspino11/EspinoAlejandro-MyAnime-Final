@@ -64,6 +64,7 @@
 .footer {
   width: 80%;
   height: auto;
+  display: flex;
   border: solid 2px rgba(255, 115, 0, 0.952);
   background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
   margin: 3vw 0 3vw 0;
@@ -72,12 +73,14 @@
 .footer__nav ul {
   list-style-type: none;
 }
+.footer__div {
+  width: 33.33%;
+}
 .footer .visitanos {
   padding: 5px;
   color: aliceblue;
-  border: outset 2px rgba(255, 115, 0, 0.952);
   margin-bottom: 10px;
-  font-size: 170%;
+  font-size: 20px;
   list-style-type: none;
 }
 .footer .visitanos:hover {
@@ -548,7 +551,7 @@
   grid-area: 2/6/3/7;
 }
 .destacados__novedades img {
-  width: 14vw;
+  width: 13vw;
   height: auto;
   padding: 0px;
   border-radius: 15px;

@@ -6,6 +6,7 @@
 .footer {
 @include ancho (80%);
 @include alto (auto);
+display: flex;
 border: $border-sections;
 background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
 margin: 3vw 0 3vw 0;
@@ -15,12 +16,16 @@ padding: 20px;
         list-style-type: none;
     }
 
+    &__div{ 
+        width: 33.33%;
+
+    }
+
     .visitanos {
         padding: 5px;
         color: $color-fuente;
-        border: $border-titulos;
         margin-bottom: 10px;
-        font-size: 170%;
+        font-size: 20px;
         list-style-type: none;
 
             &:hover { transform: scale(1.01);}

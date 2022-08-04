@@ -46,7 +46,7 @@
             // .destacados-img6 { grid-area: 1 / 6 / 2 / 7; }
 
         & img {
-        @include ancho (14vw);
+        @include ancho (13vw);
         @include alto (auto);
         padding: 0px;
         border-radius: 15px;
