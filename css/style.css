@@ -314,6 +314,30 @@
     padding: 0.625rem;
     font-size: 90%;
   }
+  .footer__nav ul {
+    padding: 0px;
+  }
+  .footer__div {
+    margin-left: 7vw;
+    width: 100%;
+  }
+  .footer__div__h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .footer .footer__div__img {
+    width: 29px;
+    margin: 10px 0 0 0;
+  }
+  .footer .footer__div2 a {
+    margin: 20px 0 0 0px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+  }
 }
 /* Queries Tablet*/
 @media (min-width: 481px) and (max-width: 768px) {
@@ -396,15 +420,32 @@
     width: 22vw;
     height: auto;
   }
-  .footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .footer {
+    width: 90%;
+  }
+  .footer__nav ul {
     padding: 0px;
   }
-  .footer ul .visitanos {
-    font-size: 80%;
+  .footer__div {
+    margin-left: 6vw;
     width: 100%;
+  }
+  .footer__div__h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .footer .footer__div__img {
+    width: 27px;
+    margin: 5px 0 0 0;
+  }
+  .footer .footer__div2 a {
+    margin: 20px 0 0 0px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
   }
 }
 /* Queries Mobile*/
@@ -508,15 +549,32 @@
     padding: 0.625rem;
     font-size: 3vw;
   }
-  .footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .footer {
+    width: 100%;
+  }
+  .footer__nav ul {
     padding: 0px;
   }
-  .footer ul .visitanos {
-    font-size: 80%;
+  .footer__div {
+    margin-left: 3vw;
     width: 100%;
+  }
+  .footer__div__h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .footer .footer__div__img {
+    width: 25px;
+    margin: 5px 0 0 0;
+  }
+  .footer .footer__div2 a {
+    margin: 20px 0 0 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
   }
 }
 /*Pages*/
@@ -1147,7 +1205,8 @@
     display: none;
   }
   .section2-main {
-    width: 90%;
+    width: 100%;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(2, auto);
