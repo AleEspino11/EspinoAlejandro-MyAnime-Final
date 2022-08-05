@@ -8,35 +8,46 @@
 @include alto (auto);
 display: flex;
 border: $border-sections;
-background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
+background: #000 linear-gradient(180deg,rgb(1, 28, 36),#0000);
 margin: 3vw 0 3vw 0;
 padding: 20px;
 
     &__nav ul  {
         list-style-type: none;
+        padding: 2px;
     }
 
     &__div{ 
-        width: 33.33%;
-
-    }
-
-    .visitanos {
-        padding: 5px;
-        color: $color-fuente;
-        margin-bottom: 10px;
-        font-size: 20px;
-        list-style-type: none;
-
+        margin-left: 10vw;
+        width: 100%;
+    
+        &__h2{
+                color: $color-fuente;
+                margin-bottom: 10px;
+                font-size: 17px;
+                
+                
             &:hover { transform: scale(1.01);}
 
-            &__img {
-                    width: 40px;
-                    height: auto;
-                    margin: 10px;
+    }
+      
+    .footer__div__img {
+                    width: 25px;
+                    margin: 10px 0 0 0;
                 }
-
         }
 
+  .footer__div2 a  {
+    margin:20px 0 0 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+
+    }
+   
+  
 }
 

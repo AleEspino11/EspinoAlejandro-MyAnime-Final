@@ -66,30 +66,38 @@
   height: auto;
   display: flex;
   border: solid 2px rgba(255, 115, 0, 0.952);
-  background-image: url(../multimedia/FondosSections/FONDO-GRIS.jpg);
+  background: #000 linear-gradient(180deg, rgb(1, 28, 36), rgba(0, 0, 0, 0));
   margin: 3vw 0 3vw 0;
   padding: 20px;
 }
 .footer__nav ul {
   list-style-type: none;
+  padding: 2px;
 }
 .footer__div {
-  width: 33.33%;
+  margin-left: 10vw;
+  width: 100%;
 }
-.footer .visitanos {
-  padding: 5px;
+.footer__div__h2 {
   color: aliceblue;
   margin-bottom: 10px;
-  font-size: 20px;
-  list-style-type: none;
+  font-size: 17px;
 }
-.footer .visitanos:hover {
+.footer__div__h2:hover {
   transform: scale(1.01);
 }
-.footer .visitanos__img {
-  width: 40px;
-  height: auto;
-  margin: 10px;
+.footer__div .footer__div__img {
+  width: 25px;
+  margin: 10px 0 0 0;
+}
+.footer .footer__div2 a {
+  margin: 20px 0 0 0px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 /*Index*/
