@@ -191,7 +191,7 @@
 
 .fondonoticias {
   align-items: center;
-  background-image: url(/multimedia/FondosSections/Noticias-Naranja.jpg);
+  background-image: url(../multimedia/FondosSections/Noticias-Naranja.jpg);
   max-width: 100%;
   height: 65vh;
 }
@@ -587,7 +587,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/multimedia/FondosSections/enemision-verde.jpg);
+  background-image: url(../multimedia/FondosSections/enemision-verde.jpg);
   padding: 0 50px;
 }
 
@@ -780,7 +780,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/multimedia/FondosSections/Completos-NaranjaRosa.jpg);
+  background-image: url(../multimedia/FondosSections/Completos-NaranjaRosa.jpg);
   padding: 0 50px;
 }
 
@@ -788,7 +788,7 @@
 .proximos-estrenos {
   width: 100%;
   height: 65vh;
-  background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
+  background-image: url(../multimedia/FondosSections/Peliculas-Colores.jpg);
   align-items: center;
 }
 .proximos-estrenos .carousel {
