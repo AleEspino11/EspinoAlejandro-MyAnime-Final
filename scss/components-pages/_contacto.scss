@@ -10,39 +10,52 @@
     align-items: center;
 }
 
+
 .form {
-    width: 35vw;
+    width: 700px;
     height: auto;
-    padding: 15px;
+    padding: 10px;
     color: $color-fuente;
     background-color: $background-sections;
 }
 
+.form__text {
+    margin-left: 10px;
+    font-size: 15px;
+}
 .form__label {
-    font-size: 12px;
-    width: 10vw;
+    width: 180px;
     height: 30px;
     margin: 11px;
     border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
 }
 
+.label-email{font-size: 15px;}
+
 .form__email {
-    width: 10vw;
+    width: 190px;
     height: 30px;
     margin-left: 10px;
     font-size: 11px;
     border-radius: 5px;
+    padding: 5px;
+}
+
+.div-mensaje{
+    padding: 10px;
 }
 .form__mensaje {
-    width: 33.1vw;
+    width: 660px;
     height: 12.5rem;
-    margin: 10px 0 10px 0;
     border-radius: 5px;
     padding: 5px;
 }
 .boton-enviar {
     display: flex;
     justify-content: flex-end;
+    padding-right: 6px;
 
 }
 .form__enviar {

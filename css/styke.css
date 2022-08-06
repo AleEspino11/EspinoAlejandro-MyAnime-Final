@@ -813,47 +813,33 @@
 }
 
 .form {
-  width: 700px;
+  width: 35vw;
   height: auto;
-  padding: 10px;
+  padding: 20px;
   color: aliceblue;
   background-color: rgb(1, 28, 36);
 }
 
-.form__text {
-  margin-left: 10px;
-  font-size: 15px;
-}
-
 .form__label {
-  width: 180px;
+  width: 2vw;
   height: 30px;
   margin: 11px;
   border-radius: 5px;
   font-size: 12px;
-  padding: 5px;
-}
-
-.label-email {
-  font-size: 15px;
 }
 
 .form__email {
-  width: 190px;
+  width: 2vw;
   height: 30px;
   margin-left: 10px;
   font-size: 11px;
   border-radius: 5px;
-  padding: 5px;
-}
-
-.div-mensaje {
-  padding: 10px;
 }
 
 .form__mensaje {
-  width: 660px;
+  width: 33.1vw;
   height: 12.5rem;
+  margin: 10px 0 10px 0;
   border-radius: 5px;
   padding: 5px;
 }
@@ -861,7 +847,6 @@
 .boton-enviar {
   display: flex;
   justify-content: flex-end;
-  padding-right: 6px;
 }
 
 .form__enviar {
@@ -1005,24 +990,12 @@
     justify-content: center;
     align-items: center;
   }
-  .fondo-contacto {
-    background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .form {
+    max-width: 70vw;
+    height: auto;
+    margin: 0;
   }
 }
-.fondo-contacto {
-  background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-  height: 65vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* Fin Queries Laptop*/
 /* Queries Tablet*/
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1378,4 +1351,4 @@
 }
 /*Fin Queries Mobile*/
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styke.css.map */

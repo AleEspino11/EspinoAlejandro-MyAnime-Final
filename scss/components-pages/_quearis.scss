@@ -114,12 +114,25 @@ width: 20vw;
     align-items: center;
    }
    
-.form {
-    max-width: 70vw;
-    height: auto;
-    margin: 0;
-    }
+   .fondo-contacto {
+    background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
    }
+   .fondo-contacto {
+    background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /* Fin Queries Laptop*/
    
