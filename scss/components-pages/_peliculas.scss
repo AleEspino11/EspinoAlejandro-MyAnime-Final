@@ -1,19 +1,23 @@
 /*Peliculas*/
 
 .proximos-estrenos {
-    background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
-    max-width: 100%;
-    @include alto (65vh);
-    display: map-get($standard,flexbox-standar);
-    flex-direction: column;
-    justify-content: map-get($standard,center-standar);
-    padding: 0 50px;  
+   width: 100%;
+   @include alto (65vh);
+   background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
+   @extend %flex-center;
+    align-items: map-get($standard, center-standar);
+  
+   
+    .carousel {
+      @include ancho (45%);
+      @include alto (auto);
+      }
+      
  }
 
  .estrenos{
    @extend %flex-center;
    margin-top: 20px;
-    
 }
 
 .estrenos img {

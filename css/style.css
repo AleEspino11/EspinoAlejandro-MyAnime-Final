@@ -4,7 +4,7 @@
   margin: 0%;
 }
 
-.estrenos, .section2-main .S20, .section2-main .S19, .section2-main .S18, .section2-main .S17, .section2-main .S16, .section2-main .S15, .section2-main .S14, .section2-main .S13, .section2-main .S12, .section2-main .S11, .section2-main .S10, .section2-main .S9, .section2-main .S8, .section2-main .S7, .section2-main .S6, .section2-main .S5, .section2-main .S4, .section2-main .S3, .section2-main .S2, .section2-main .S1, .fondonoticias, .section2, .section1, .section-footer {
+.estrenos, .proximos-estrenos, .section2-main .S20, .section2-main .S19, .section2-main .S18, .section2-main .S17, .section2-main .S16, .section2-main .S15, .section2-main .S14, .section2-main .S13, .section2-main .S12, .section2-main .S11, .section2-main .S10, .section2-main .S9, .section2-main .S8, .section2-main .S7, .section2-main .S6, .section2-main .S5, .section2-main .S4, .section2-main .S3, .section2-main .S2, .section2-main .S1, .fondonoticias, .section2, .section1, .section-footer {
   display: flex;
   justify-content: center;
 }
@@ -110,6 +110,9 @@
 .section1 .carousel {
   width: 45%;
   height: auto;
+}
+.section1 .section1__img {
+  width: 20vw;
 }
 
 .section2 {
@@ -783,13 +786,14 @@
 
 /*Peliculas*/
 .proximos-estrenos {
-  background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
-  max-width: 100%;
+  width: 100%;
   height: 65vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0 50px;
+  background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
+  align-items: center;
+}
+.proximos-estrenos .carousel {
+  width: 45%;
+  height: auto;
 }
 
 .estrenos {
