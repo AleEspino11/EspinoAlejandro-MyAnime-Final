@@ -1,7 +1,7 @@
 /*Peliculas*/
 
 .proximos-estrenos {
-    background-image: url(../multimedia/FondosSections/FONDO-AZUL.jpg);
+    background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
     max-width: 100%;
     @include alto (65vh);
     display: map-get($standard,flexbox-standar);

@@ -188,8 +188,8 @@
 
 .fondonoticias {
   align-items: center;
-  background-image: url(../multimedia/FondosSections/FONDO-NARANJA.jpg);
-  width: 100%;
+  background-image: url(/multimedia/FondosSections/Noticias-Naranja.jpg);
+  max-width: 100%;
   height: 65vh;
 }
 
@@ -584,7 +584,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../multimedia/FondosSections/VERDE-FORMAS.jpg);
+  background-image: url(/multimedia/FondosSections/enemision-verde.jpg);
   padding: 0 50px;
 }
 
@@ -777,13 +777,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../multimedia/FondosSections/FONDO-NARANJA.jpg);
+  background-image: url(/multimedia/FondosSections/Completos-NaranjaRosa.jpg);
   padding: 0 50px;
 }
 
 /*Peliculas*/
 .proximos-estrenos {
-  background-image: url(../multimedia/FondosSections/FONDO-AZUL.jpg);
+  background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
   max-width: 100%;
   height: 65vh;
   display: flex;
@@ -805,45 +805,55 @@
 /*contactos*/
 .fondo-contacto {
   background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-  height: 37.5em;
+  height: 65vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
-  display: inline-block;
+  width: 35vw;
+  height: auto;
+  padding: 15px;
   color: aliceblue;
-  margin-left: 41.25em;
-  margin-top: 8.4375em;
-  margin-bottom: 50px;
-  width: 32.9375em;
-  height: 18.75em;
-  padding: 0.625em;
-  border: solid 2px rgba(255, 115, 0, 0.952);
+  background-color: rgb(1, 28, 36);
 }
 
 .form__label {
-  width: 9.375rem;
-  height: 1.5625rem;
-  margin: 0.625rem;
+  font-size: 12px;
+  width: 10vw;
+  height: 30px;
+  margin: 11px;
+  border-radius: 5px;
 }
 
 .form__email {
-  width: 9.375rem;
-  height: 1.5625rem;
-  margin-left: 0.9375rem;
+  width: 10vw;
+  height: 30px;
+  margin-left: 10px;
+  font-size: 11px;
+  border-radius: 5px;
 }
 
 .form__mensaje {
-  width: 31.5625rem;
+  width: 33.1vw;
   height: 12.5rem;
-  margin: 0.625rem;
+  margin: 10px 0 10px 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.boton-enviar {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .form__enviar {
-  width: 5.625rem;
-  height: 1.5625rem;
-  padding: 0.3125rem;
-  margin-left: 26.75rem;
+  width: 90px;
+  height: auto;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 /*fin contactos*/

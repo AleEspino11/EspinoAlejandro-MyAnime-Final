@@ -3,45 +3,53 @@
 
 .fondo-contacto {
     background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-    height: 37.5em;
+    height: 65vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
-    display: inline-block;
+    width: 35vw;
+    height: auto;
+    padding: 15px;
     color: $color-fuente;
-    margin-left: 41.25em;
-    margin-top: 8.4375em;
-    margin-bottom: 50px;
-    width: 32.9375em;
-    height: 18.75em;
-    padding: 0.625em;
-    border: $border-sections;
-
+    background-color: $background-sections;
 }
 
 .form__label {
-    width: 9.375rem;
-    height: 1.5625rem;
-    margin: 0.625rem;
+    font-size: 12px;
+    width: 10vw;
+    height: 30px;
+    margin: 11px;
+    border-radius: 5px;
 }
 
 .form__email {
-    width: 9.375rem;
-    height: 1.5625rem;
-    margin-left: 0.9375rem;
+    width: 10vw;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 11px;
+    border-radius: 5px;
 }
 .form__mensaje {
-    width: 31.5625rem;
+    width: 33.1vw;
     height: 12.5rem;
-    margin: 0.625rem;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    padding: 5px;
 }
+.boton-enviar {
+    display: flex;
+    justify-content: flex-end;
 
+}
 .form__enviar {
-    width: 5.625rem;
-    height: 1.5625rem;
-    padding: 0.3125rem;
-    margin-left: 26.75rem;
+    width: 90px;
+    height: auto;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 /*fin contactos*/
