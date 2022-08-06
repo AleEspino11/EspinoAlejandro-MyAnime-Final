@@ -995,10 +995,12 @@
   /*Peliculas*/
   .proximos-estrenos {
     max-width: 100%;
+    padding: 0px;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  }
+  .proximos-estrenos .carousel {
+    margin: 20px 0 20px 0;
+    width: 80%;
   }
   .estrenos img {
     width: 60vw;
@@ -1149,11 +1151,12 @@
   }
   .proximos-estrenos {
     max-width: 100%;
+    padding: 0px;
     height: auto;
-    padding: 0 15px 0 15px;
   }
-  .proximos-estrenos .destacados__novedades__h2 {
-    width: 60%;
+  .proximos-estrenos .carousel {
+    margin: 20px 0 20px 0;
+    width: 80%;
   }
   .estrenos img {
     width: 60vw;
@@ -1338,10 +1341,12 @@
   }
   .proximos-estrenos {
     max-width: 100%;
+    padding: 0px;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
+  }
+  .proximos-estrenos .carousel {
+    margin: 20px 0 20px 0;
+    width: 90%;
   }
   .estrenos img {
     width: 80vw;

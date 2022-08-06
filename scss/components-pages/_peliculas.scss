@@ -5,7 +5,7 @@
    @include alto (65vh);
    background-image: url(/multimedia/FondosSections/Peliculas-Colores.jpg);
    @extend %flex-center;
-    align-items: map-get($standard, center-standar);
+   align-items: map-get($standard, center-standar);
   
    
     .carousel {
