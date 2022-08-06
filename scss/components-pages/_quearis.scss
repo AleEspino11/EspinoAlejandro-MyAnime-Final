@@ -108,30 +108,30 @@ width: 20vw;
    
 
  /*Contacto*/  
-.fondo-contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   
-   .fondo-contacto {
-    background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-   }
-   .fondo-contacto {
-    background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.form {
+    width: 650px;
 }
 
+.form__text {
+    font-size: 13px;
+}
+
+.form__label {
+    width: 160px;
+   
+}
+.label-email{font-size: 13px;}
+
+.form__email {
+    width: 170px;
+}
+
+.form__mensaje {
+    width: 610px;
+}
+
+}
 
 
 /* Fin Queries Laptop*/
@@ -249,36 +249,40 @@ width: 20vw;
     margin-bottom: 30px;
     }
    
-.fondo-contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      }
-       
+/*Contacto*/  
+
+.fondo-contacto{
+    padding: 15px;
+
+}
+
 .form {
-     width: 72vw;
-    height: auto;
-    margin: 0;
-        }
-   
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__text {
+    font-size: 15px;
+}
+
 .form__label {
- width: 15vw;
- margin: 0 5px 0 5px;
-   }
+    width: 200px;
    
+}
+.label-email{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
 .form__email {
-    width: 22vw;
-    margin: 0 0 0 5px;
-   }
-   .form__mensaje {
-       width: 69.2vw;
-       }
-   
-   .form__enviar {
-       display: flex;
-       width: 9vw;
-       margin:0 0 0 62vw;
-       }
+    width: 200px;
+    margin: 10px;
+}
+
+.form__mensaje {
+    width: 410px;
+}
    
    }
    
@@ -415,38 +419,40 @@ width: 20vw;
        margin-bottom: 30px;
        }
        
-   .fondo-contacto {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: auto
-        }
-           
-   .form {
-       width: 80%;
-       height: auto;
-       margin: 20px 0 20px 0;
-       }
-       
-   .form__label {
-       width: 15vw;
-        margin: 0 5px 0 5px;
-       }
-   .form__email {
-       width: 20vw;
-       margin: 0 0 0 5px;
-       }
-   .form__mensaje {
-       width: 75vw;
-       }
-       
-   .form__enviar {
-       display: flex;
-       width: 15vw;
-       margin:0 0 0 63vw;
-       display: flex;
-       justify-content: center;
-       }
+/*Contacto*/  
+
+.fondo-contacto{
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+}
+
+.form__text {
+    font-size: 15px;
+}
+
+.form__label {
+    margin: 10px;
+    width: 180px;
+   
+}
+.label-email{
+    font-size: 15px;
+    margin-left: 10px ;
+}
+
+.form__email {
+    width: 180px;
+    margin: 10px;
+}
+
+.form__mensaje {
+    width: 270px;
+}
    }
    
    /*Fin Queries Mobile*/
