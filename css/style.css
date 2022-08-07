@@ -584,7 +584,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(/multimedia/FondosSections/FondoVerdeyAzul.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoVerdeyAzul.jpg);
   padding: 0 50px;
 }
 
@@ -779,14 +779,14 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
-  background-image: url(/multimedia/FondosSections/FondoNaranjayRosa.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoNaranjayRosa.jpg);
 }
 
 /*Peliculas*/
 .proximos-estrenos {
   width: 100%;
   height: 65vh;
-  background-image: url(/multimedia/FondosSections/FondoColores.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoColores.jpg);
   align-items: center;
 }
 .proximos-estrenos .carousel {
@@ -806,7 +806,7 @@
 /* Fin Peliculas*/
 /*contactos*/
 .fondo-contacto {
-  background-image: url(/multimedia/FondosSections/FONDO-PELIS.jpg);
+  background-image: url(../../multimedia/FondosSections/FONDO-PELIS.jpg);
   height: 65vh;
   width: 100%;
   display: flex;
