@@ -23,6 +23,10 @@
 
     &__h2 {width: 100%;}
 
+.titulos {
+    margin: 20px 0 20px 10px;
+    font-size: 25px;}
+
 .cards-sect1 {
 width: 20vw;
         
@@ -180,12 +184,9 @@ width: 20vw;
     width: 25vw;
     }
     
-    &__h2 {
-    margin-left: 25px;
-    width: 90%;
-    }
-
-.titulos { font-size: 25px; }
+.titulos {
+    margin: 20px 0 20px 23px;
+    font-size: 25px;}
 
 .cards-sect1 {width: 28vw;}
     
@@ -200,6 +201,7 @@ width: 20vw;
     &__titulo {
         width: 50%;
         margin-left: 10px;
+        font-size: 25px;
         }
                
     &__img {
@@ -296,7 +298,7 @@ width: 20vw;
    /* Queries Mobile*/
    
    
-   @media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
 .section-destacados {
         max-width: 100%;
@@ -321,15 +323,13 @@ width: 20vw;
             width: 26vw;
             }
             
-         &__h2 {
-            margin: 15px 0 0 12px;
-            width: 63%;}
+    .titulos {
+            margin: 20px 0 20px 5px;
+            font-size: 20px;}
 
-        .titulos { font-size: 16px; }
-
-        .cards-sect1 {width:auto}
+    .cards-sect1 {width:auto}
             
-        .texto__cards {font-size: 14px;}  
+    .texto__cards {font-size: 14px;}  
 
    .destacados-img1 {
         display: flex;
@@ -384,7 +384,7 @@ width: 20vw;
     &__titulo {
         width: 65%;
         margin-left: 10px;
-    font-size: 15px;}
+        font-size: 20px;}
                    
     &__img {
          width: 20vw;
