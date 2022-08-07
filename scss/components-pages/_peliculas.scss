@@ -3,7 +3,7 @@
 .proximos-estrenos {
    width: 100%;
    @include alto (65vh);
-   background-image: url(../../multimedia/FondosSections/FondoColores.jpg);
+   background-image: url(/multimedia/FondosSections/FondoColores.jpg);
    @extend %flex-center;
    align-items: map-get($standard, center-standar);
   
