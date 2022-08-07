@@ -37,10 +37,10 @@
 
     &__titulo__t {
         @include ancho (100%);
-        padding: 10px 5px 10px 5px;
+        padding: 8px 0px 8px 8px;
         color: $color-fuente;
         margin-bottom: 15px;
-        font-size: 170%;
+        font-size: 30px;
         border: $border-titulos;
     
        /*Transform*/

@@ -162,13 +162,13 @@
   align-items: center;
 }
 .section2__recomendados__titulo {
-  width: 100%;
-  padding: 10px 5px 10px 5px;
+  width: 92.5%;
+  padding: 8px 0px 8px 8px;
   margin: 0 0 30px 2.8vw;
   border: outset 2px rgba(255, 115, 0, 0.952);
   color: aliceblue;
   font-weight: 400;
-  font-size: 170%;
+  font-size: 30px;
   /*Transform*/
 }
 .section2__recomendados__titulo:hover {
@@ -191,7 +191,7 @@
 
 .fondonoticias {
   align-items: center;
-  background-image: url(../multimedia/FondosSections/Noticias-Naranja.jpg);
+  background-image: url(../../multimedia/FondosSections/Noticias-Naranja.jpg);
   max-width: 100%;
   height: 65vh;
 }
@@ -236,10 +236,10 @@
 }
 .noticias__titulo__t {
   width: 100%;
-  padding: 10px 5px 10px 5px;
+  padding: 8px 0px 8px 8px;
   color: aliceblue;
   margin-bottom: 15px;
-  font-size: 170%;
+  font-size: 30px;
   border: outset 2px rgba(255, 115, 0, 0.952);
   /*Transform*/
 }
@@ -375,11 +375,10 @@
     width: 100%;
     margin: 0 0 0 2vw;
     padding: 5px;
-    font-size: 3vw;
+    font-size: 25px;
   }
   .section2__recomendados__div1 {
     padding: 0px 0px 30px 5px;
-    max-width: 100%;
   }
   .section2__recomendados .texto-card {
     font-size: 14px;
@@ -503,9 +502,8 @@
     grid-area: 3/2/4/3;
   }
   .section2__recomendados__titulo {
-    font-size: 8vw;
-    padding: 10px 50px 10px 10px;
-    margin-left: 10vw;
+    font-size: 20px;
+    margin: 0 0 0 30px;
   }
   .section2 .texto-card {
     font-size: 13px;
@@ -587,7 +585,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../multimedia/FondosSections/enemision-verde.jpg);
+  background-image: url(../../multimedia/FondosSections/enemision-verde.jpg);
   padding: 0 50px;
 }
 
@@ -624,19 +622,19 @@
   height: auto;
   padding: 0px;
   border-radius: 15px;
-  /*transform*/
 }
-.destacados__novedades__h2 {
+.destacados__novedades .titulos {
   border: outset 2px rgba(255, 115, 0, 0.952);
   background-color: rgb(1, 28, 36);
-  padding: 8px 40px 8px 8px;
-  width: 66%;
+  padding: 8px 10px 8px 8px;
+  width: 65%;
   color: aliceblue;
   font-weight: 400;
-  margin: 50px 0 20px 0;
+  margin: 0px 0 20px 0;
+  font-size: 30px;
   /*transform*/
 }
-.destacados__novedades__h2:hover {
+.destacados__novedades .titulos:hover {
   transform: scale(1.02);
 }
 .destacados__novedades .cards-sect1 {
@@ -747,6 +745,7 @@
   width: 47.2%;
   color: aliceblue;
   font-weight: 400;
+  font-size: 30px;
   margin: 20px 0 20px 1.4vw;
   /*Transform*/
 }
@@ -780,15 +779,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../multimedia/FondosSections/Completos-NaranjaRosa.jpg);
   padding: 0 50px;
+  background-image: url(../../multimedia/FondosSections/Completos-NaranjaRosa.jpg);
 }
 
 /*Peliculas*/
 .proximos-estrenos {
   width: 100%;
   height: 65vh;
-  background-image: url(../multimedia/FondosSections/Peliculas-Colores.jpg);
+  background-image: url(../../multimedia/FondosSections/Peliculas-Colores.jpg);
   align-items: center;
 }
 .proximos-estrenos .carousel {
@@ -808,7 +807,7 @@
 /* Fin Peliculas*/
 /*contactos*/
 .fondo-contacto {
-  background-image: url(../multimedia/FondosSections/FONDO-PELIS.jpg);
+  background-image: url(../../multimedia/FondosSections/FONDO-PELIS.jpg);
   height: 65vh;
   width: 100%;
   display: flex;
