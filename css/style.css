@@ -191,7 +191,7 @@
 
 .fondonoticias {
   align-items: center;
-  background-image: url(../../multimedia/FondosSections/Noticias-Naranja.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoNaranja.jpg);
   max-width: 100%;
   height: 65vh;
 }
@@ -584,7 +584,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../../multimedia/FondosSections/enemision-verde.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoVerdeyAzul.jpg);
   padding: 0 50px;
 }
 
@@ -629,7 +629,7 @@
   width: 65%;
   color: aliceblue;
   font-weight: 400;
-  margin: 0px 0 20px 0;
+  margin: 10px 0 20px 10px;
   font-size: 30px;
   /*transform*/
 }
@@ -779,14 +779,14 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 50px;
-  background-image: url(../../multimedia/FondosSections/Completos-NaranjaRosa.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoNaranjayRosa.jpg);
 }
 
 /*Peliculas*/
 .proximos-estrenos {
   width: 100%;
   height: 65vh;
-  background-image: url(../../multimedia/FondosSections/Peliculas-Colores.jpg);
+  background-image: url(../../multimedia/FondosSections/FondoColores.jpg);
   align-items: center;
 }
 .proximos-estrenos .carousel {
